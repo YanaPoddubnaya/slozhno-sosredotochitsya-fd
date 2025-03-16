@@ -2,4 +2,158 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  width: 375px;
+  height: 668px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+height: 100vh;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr min-content 1fr;
+position: relative;
+} 
+
+.header__theme-menu {
+  height: 98px;
+  display: grid;
+  align-items: flex-end;
+}
+
+.header__theme-menu-list {
+position: absolute;
+width: 70px;
+height: 98px;
+display: grid;
+padding-left: 295px;
+}
+
+.header__theme-menu-item {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 13px;
+height: 26px;
+left: 295px;
+}
+
+.header__theme-menu-button {
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+text-align: center;
+text-transform: lowercase;
+background-color: transparent;
+border: none;
+}
+
+h1 {
+font-family: 'IBM Plex Mono', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 116px;
+line-height: 95.7px;
+width: 355px;
+height: 192px;
+display: flex;
+align-items: center;
+margin-left: 10px;
+}
+
+h2 {
+font-size: 18px;
+line-height: 23.4px;
+display: grid;
+align-items: center;
+margin-left: 10px;
+font-family: 'IBM Plex Mono', sans-serif;
+font-style: normal;
+font-weight: 700;
+margin-right: 10px;
+}
+
+.box {
+    margin: 10px;
+    box-sizing: border-box;
+    position: static;
+    width: 25.04px;
+    height: 25px;
+    border-width: 0px 0px 1px 1px;
+    border-style: solid;
+}
+
+@media (width>=768px) and (height>=1024px) {}
+
+@media (width>=1024px) and (height>=768px) {}
+
+.section {
+width: 375px;
+height: 5355px;
+}
+
+p {
+right: 13.97px;
+font-family: 'IBM Plex Mono', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #F1B2CE;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+h3 {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0%;
+}
+
+h5 {
+font-family: 'IBM Plex Mono',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.image {
+  height: 1366px;
+}
+
+img {
+  width: 375px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+footer {
+  position: absolute;
+  width: 375px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 40px;
+}
+
+.footer__title {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 116px;
 }

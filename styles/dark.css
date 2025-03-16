@@ -13,4 +13,96 @@
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  background-image: url(../images/cover-image-dark.png);
+}
+
+.theme-dark .header .decorated-zone {
+  position: absolute;
+}
+
+.theme-dark .box__rec {
+  box-sizing: border-box;
+  position: absolute;
+  width: 25.04px;
+  height: 25px;
+  left: 339.96px;
+  top: 10px;
+  border-width: 1px 1px 0px 0px;
+  border-style: solid;
+  border-color: #FF0070;
+  }
+
+  .theme-dark .box {
+    border-color: #FF0070;
+  }
+
+  .theme-dark .record {
+    color: var(--main-color-dark);
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 304px;
+    margin-block-start: 10px;
+    width: 33px;
+    height: 26px;
+  }
+
+  .theme-dark .rec__icon-box {
+    box-shadow: 0px 0px 4px 2px var(--main-color-dark);
+    border-radius: 50%;
+    background: var(--main-color-dark);
+    width: 9px;
+    height: 9px;
+    position: absolute;
+  }
+
+.theme-dark h1 {
+  color: #DB00FF;
+  text-shadow: 4px 4px 0px var(--main-color-dark);
+}
+
+.theme-dark h2 {
+color: #000028;
+background: var(--main-color-dark);
+}
+
+.theme-dark .header__theme-menu-button {
+  color: var(--main-color-dark);
+}
+
+h3 {
+  color: var(--main-color-dark);
+}
+
+h4 {
+  letter-spacing: 1px;
+  font-weight: 0;
+}
+
+h5 {
+  color: #000028;
+  background: var(--main-color-dark);
+}
+
+a {
+  color: var(--main-color-light);
+  text-shadow: 1px 1px 0px var(--main-color-dark);
+  text-decoration: none;
+}
+
+.theme-dark a:hover {
+  text-decoration: underline;
+  color: var(--main-color-light);
+}
+
+.theme-dark a:focus {
+  outline: 1px solid var(--main-color-light);
+}
+
+.theme-dark .footer__title {
+  color: #DB00FF;
+  text-shadow: 2px 2px 0px var(--main-color-dark);
+  background: none;
 }
