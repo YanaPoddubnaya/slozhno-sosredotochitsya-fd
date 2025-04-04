@@ -10,6 +10,9 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --main-color-light: #FF8DCB;
+  ----accent-color: #FFC2E6;
+  --text-color-light: #353430;
+  --main-font-size: 18px;
 }
 
 .theme-light .page {
@@ -17,16 +20,34 @@
   background-image: url(../images/cover-image-light.png);
 }
 
+.theme-light .header__theme-menu-list {}
+
+.theme-light .header__theme-menu-item {}
+
 .theme-light .box__rec {
-  color: #353430;
+  border-color: var(--text-color-light);
 }
 
 .theme-light .box {
- color: #353430;
+ border-color: var(--text-color-light);
 }
 
 .theme-light .header__theme-menu-button {
-  color: #353430;
+    color: var(--text-color-light);
+    font-size: var(--main-font-size);
+    line-height: var(--main-font-size);
+}
+
+.theme-light .header__theme-menu-button_type_light {
+  outline: 1px solid var(--text-color-light);
+}
+
+.theme-light .header__theme-menu-button_type_dark:hover {
+  outline: 1px solid rgba(50, 49, 45, 0.4)
+}
+
+.theme-light .header__theme-menu-button_type_dark:focus-visible {
+  border-bottom: 1px solid var(--text-color-light);
 }
 
 .theme-light h1 {
@@ -34,8 +55,11 @@ color: #FFC2E6;
 text-shadow: 4px 4px 0px var(--main-color-light);
 }
 
+.theme-light .title-text {
+}
+
 .theme-light h2 {
-color: #353430;
+color: var(--text-color-light);
 background: var(--main-color-light);
 }
 
@@ -44,33 +68,37 @@ background: var(--main-color-light);
 }
 
 .theme-light h3 {
-color: #353430;
+color: var(--text-color-light);
 } 
 
-.theme-light p {
-right: 13.97px;
-top: 100px;
-font-family: 'IBM Plex Mono', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
-color: #353430;
+.theme-light article {
+font-size: var(--main-font-size);
+color: var(--text-color-light);
 }
 
 .theme-light h5 {
-  color: #353430;
+  color: var(--text-color-light);
   background: var(--main-color-light);
-  font-family: 'IBM Plex Mono', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: var(--main-font-size);
+}
+
+.theme-light .section__text-two {
+}
+
+.theme-light .section_text-three {
 }
 
 .theme-light a {
-  color: #353430;
+  color: var(--text-color-light);
   text-shadow: 1px 1px 0px var(--main-color-light);
+}
+
+.theme-light a:hover {
+  border-bottom: 1px solid var(--text-color-light);
+}
+
+.theme-light a:focus {
+  outline: 1px solid var(--text-color-light);
 }
 
 .theme-light .footer__title {

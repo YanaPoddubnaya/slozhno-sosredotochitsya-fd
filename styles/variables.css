@@ -5,4 +5,9 @@
 
 :root.theme-dark {
   --main-color-dark: #FF0070;
+  --main-color-light: #FF8DCB;
+  --accent-color: #DB00FF;
+  --main-font-size: 18px;
 }
+
+
