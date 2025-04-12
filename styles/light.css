@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --main-color-light: #FF8DCB;
-  ----accent-color: #FFC2E6;
+  --accent-color: #FFC2E6;
   --text-color-light: #353430;
   --main-font-size: 18px;
 }
@@ -19,10 +19,6 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-image: url(../images/cover-image-light.png);
 }
-
-.theme-light .header__theme-menu-list {}
-
-.theme-light .header__theme-menu-item {}
 
 .theme-light .box__rec {
   border-color: var(--text-color-light);
@@ -33,13 +29,16 @@
 }
 
 .theme-light .header__theme-menu-button {
-    color: var(--text-color-light);
-    font-size: var(--main-font-size);
-    line-height: var(--main-font-size);
+  color: var(--text-color-light);
+  font-size: var(--main-font-size);
+  line-height: var(--main-font-size);
 }
 
 .theme-light .header__theme-menu-button_type_light {
   outline: 1px solid var(--text-color-light);
+  padding-left: 13px;
+  padding: 0 12px 5px;
+  margin-top: 4px;
 }
 
 .theme-light .header__theme-menu-button_type_dark:hover {
@@ -51,16 +50,13 @@
 }
 
 .theme-light h1 {
-color: #FFC2E6;
-text-shadow: 4px 4px 0px var(--main-color-light);
-}
-
-.theme-light .title-text {
+  color: #FFC2E6;
+  text-shadow: 4px 4px 0px var(--main-color-light);
 }
 
 .theme-light h2 {
-color: var(--text-color-light);
-background: var(--main-color-light);
+  color: var(--text-color-light);
+  background: var(--main-color-light);
 }
 
 .theme-light .record {
@@ -68,24 +64,18 @@ background: var(--main-color-light);
 }
 
 .theme-light h3 {
-color: var(--text-color-light);
+  color: var(--text-color-light);
 } 
 
 .theme-light article {
-font-size: var(--main-font-size);
-color: var(--text-color-light);
+  font-size: var(--main-font-size);
+  color: var(--text-color-light);
 }
 
 .theme-light h5 {
   color: var(--text-color-light);
   background: var(--main-color-light);
   font-size: var(--main-font-size);
-}
-
-.theme-light .section__text-two {
-}
-
-.theme-light .section_text-three {
 }
 
 .theme-light a {
@@ -105,4 +95,12 @@ color: var(--text-color-light);
   color: #FFC2E6;
   text-shadow: 1px 1px 0px var(--main-color-light);
   background: none;
+}
+
+@media (width>=1024px) {
+
+.theme-light .header__theme-menu-button_type_light {
+  padding: 1px 12px 5px 12px;
+  margin-left: 13px;
+  }
 }
