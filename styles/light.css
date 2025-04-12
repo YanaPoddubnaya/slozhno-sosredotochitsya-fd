@@ -20,6 +20,7 @@
   background-image: url(../images/cover-image-light.png);
 }
 
+
 .theme-light .box__rec {
   border-color: var(--text-color-light);
 }
@@ -95,6 +96,9 @@
   color: #FFC2E6;
   text-shadow: 1px 1px 0px var(--main-color-light);
   background: none;
+}
+
+@media (width>=768px) {
 }
 
 @media (width>=1024px) {
