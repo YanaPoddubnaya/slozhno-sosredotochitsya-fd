@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   width: 375px;
   height: 100vh;
   background-attachment: fixed;
@@ -288,9 +287,15 @@ img {
 .footer .box {
   left: 0;
   bottom: 0;
-
 }
 
+@media (prefers-color-scheme: dark) {
+  .theme-auto {
+    --main-color-dark: #000028;
+    --main-color-light: #F1B2CE;
+    --accent-color: #FF0070;
+  }
+}
 
 @media (width>=768px) {
 
