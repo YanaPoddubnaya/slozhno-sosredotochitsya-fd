@@ -159,8 +159,9 @@ h2 {
 }
 
 .title-decor {
-  color: #000028;
+  color: var(--accent-color-text);
   background: var(--main-color-dark);
+
 }
 
 .box {
@@ -222,7 +223,7 @@ h5 {
 
 a {
   color: var(--main-color-light);
-  text-shadow: 1px 1px 0px var(--main-color-dark);
+  text-shadow: 1px 1px 0px var(--text-shadow);
   text-decoration: none;
 }
 
@@ -275,7 +276,7 @@ img {
   font-weight: 700;
   font-size: clamp(116px, 10vw, 157px);
   color: var(--accent-color);
-  text-shadow: 2px 2px 0px var(--main-color-dark);
+  text-shadow: 2px 2px 0px var(--text-shadow);
   background: none;
 
 }
@@ -344,6 +345,12 @@ h1 {
 .title-text {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-top: 143px;
+padding-right: 10px;
+  }
+
+h2 { 
+  grid-column-start: 2;
   }
 
 .text__box {
@@ -528,6 +535,7 @@ h1 {
 
 .title-text {
   margin: 0;
+  margin-top: 112px;
 }
 
 .section__text-one {
