@@ -15,6 +15,15 @@
   --main-font-size: 18px;
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+  --main-color-light: #FF8DCB;
+  --accent-color: #FFC2E6;
+  --text-color-light: #353430;
+  --main-font-size: 18px;
+  }
+}
+
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-image: url(../images/cover-image-light.png);
