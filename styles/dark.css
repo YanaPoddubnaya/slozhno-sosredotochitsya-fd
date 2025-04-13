@@ -9,10 +9,12 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-    --main-color-dark: #FF0070;
-    --main-color-light: #FF8DCB;
-    --accent-color: #DB00FF;
-    --main-font-size: 18px;
+  --main-color-dark: #FF0070;
+  --main-color-light: #FF8DCB;
+  --accent-color: #DB00FF;
+  --main-font-size: 18px;
+  --text-shadow: #FF0070;
+  --accent-color-text: #000028;
 }
 
 
