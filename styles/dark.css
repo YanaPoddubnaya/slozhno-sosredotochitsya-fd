@@ -9,15 +9,39 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --main-color-dark: #FF0070;
-  --main-color-light: #FF8DCB;
-  --accent-color: #DB00FF;
-  --main-font-size: 18px;
-  --text-shadow: #FF0070;
-  --accent-color-text: #000028;
+  --color-primary: #DB00FF;
+  --color-surface: #FF0070;
+  --color-second: #000028;
+  --color-accent: #F1B2CE;
+  --color-band: #FF0070;
+  --color-shadow: #FF0070;
+  --font-size: 18px;
+  --bg-color: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #DB00FF;
+    --color-surface: #FF0070;
+    --color-second: #000028;
+    --color-accent: #F1B2CE;
+    --color-band: #FF0070;
+    --color-shadow: #FF0070;
+    --font-size: 18px;
+    --bg-color: #000028;
+    --bg-image: url(../images/cover-image-dark.png);
+  }
+
+  h3 {
+    color: #FF0070;
+  }
+}
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+}
+
+.theme-dark h3 {
+  color: #FF0070 !important;
 }

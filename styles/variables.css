@@ -4,13 +4,13 @@
 */
 
 :root.theme-dark {
-  --main-color-dark: #FF0070;
-  --main-color-light: #FF8DCB;
-  --accent-color: #DB00FF;
-  --main-font-size: 18px;
-  --text-shadow: #FF0070;
-  --accent-color-text: #000028;
-  --text-accent: #F1B2CE;
+  --color-primary: #DB00FF;
+  --color-surface: #FF0070;
+  --color-second: #000028;
+  --color-accent: #F1B2CE;
+  --color-band: #FF0070;
+  --color-shadow: #FF0070;
+  --font-size: 18px;
 }
 
 
