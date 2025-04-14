@@ -69,7 +69,7 @@
   margin: 0;
 }
 
-.theme-light .box{
+.theme-light .box {
   margin-top: 20px;
 }
 
@@ -85,12 +85,12 @@
     margin-left: 5px;
   }
 
-  .theme-light .header__section {
+.theme-light .header__section {
     margin-top: 180px;
     margin-left: 0;
   }
 
-  .theme-light .box {
+.theme-light .box {
     margin-top: 130px;
   }
 }
@@ -101,13 +101,16 @@
   margin-left: 13px;
   }
 
-  .theme-light .title-text {
-    margin: 0;
+.theme-light .title-text {
     margin-top: 112px;
+    margin-left: 10px;
   }
 
-  .theme-light .box {
-    margin-top: 0;
+.theme-light .box {
     margin-top: 80px;
+  }
+
+.theme-light .footer__title {
+  margin-bottom: 0;
   }
 }
