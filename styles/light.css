@@ -16,6 +16,7 @@
   --color-band: #353430;
   --color-shadow: #FF8DCB;
   --bg-color: #fff1f7;
+  --font-size: 18px;
   --bg-image: url(../images/cover-image-light.png);
 }
 
@@ -28,6 +29,7 @@
     --color-band: #353430;
     --color-shadow: #FF8DCB;
     --bg-color: #fff1f7;
+    --font-size: 18px;
     --bg-image: url(../images/cover-image-light.png);
   }
 
@@ -43,7 +45,7 @@
 .theme-light .header__theme-menu-button_type_light {
   outline: 1px solid var(--color-band);
   padding-left: 13px;
-  padding: 0 12px 5px;
+  padding: 0px 7px 6px 12px;
   margin-top: 4px;
 }
 
@@ -59,8 +61,16 @@
   visibility: hidden;
 }
 
+.theme-light .header__section {
+  margin: 67px 31px 54px 11px;
+}
+
 .theme-light .title-text {
   margin: 0;
+}
+
+.theme-light .box{
+  margin-top: 20px;
 }
 
 .theme-light .footer__title {
@@ -75,6 +85,11 @@
     margin-left: 5px;
   }
 
+  .theme-light .header__section {
+    margin-top: 180px;
+    margin-left: 0;
+  }
+
   .theme-light .box {
     margin-top: 130px;
   }
@@ -84,5 +99,15 @@
 .theme-light .header__theme-menu-button_type_light {
   padding: 1px 12px 5px 12px;
   margin-left: 13px;
+  }
+
+  .theme-light .title-text {
+    margin: 0;
+    margin-top: 112px;
+  }
+
+  .theme-light .box {
+    margin-top: 0;
+    margin-top: 80px;
   }
 }
