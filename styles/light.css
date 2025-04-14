@@ -44,9 +44,6 @@
 
 .theme-light .header__theme-menu-button_type_light {
   outline: 1px solid var(--color-band);
-  padding-left: 13px;
-  padding: 0px 7px 6px 12px;
-  margin-top: 4px;
 }
 
 .theme-light .header__theme-menu-button_type_dark:hover {
@@ -59,10 +56,6 @@
 
 .theme-light .record {
   visibility: hidden;
-}
-
-.theme-light .header__section {
-  margin: 67px 31px 54px 11px;
 }
 
 .theme-light .title-text {
@@ -85,21 +78,11 @@
     margin-left: 5px;
   }
 
-.theme-light .header__section {
-    margin-top: 180px;
-    margin-left: 0;
-  }
-
 .theme-light .box {
     margin-top: 130px;
   }
 }
 @media (width>=1024px) {
-
-.theme-light .header__theme-menu-button_type_light {
-  padding: 1px 12px 5px 12px;
-  margin-left: 13px;
-  }
 
 .theme-light .title-text {
     margin-top: 112px;

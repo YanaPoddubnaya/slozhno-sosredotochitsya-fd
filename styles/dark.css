@@ -36,6 +36,10 @@
   h3 {
     color: #FF0070;
   }
+
+  .record {
+    visibility: visible;
+  }
 }
 
 .theme-dark .page {
@@ -44,4 +48,8 @@
 
 .theme-dark h3 {
   color: #FF0070 !important;
+}
+
+.theme-dark .record {
+  visibility: visible;
 }
