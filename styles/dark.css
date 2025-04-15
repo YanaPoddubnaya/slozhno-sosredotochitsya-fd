@@ -15,7 +15,6 @@
   --color-accent: #F1B2CE;
   --color-band: #FF0070;
   --color-shadow: #FF0070;
-  --font-size: 18px;
   --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
 }
@@ -28,7 +27,6 @@
     --color-accent: #F1B2CE;
     --color-band: #FF0070;
     --color-shadow: #FF0070;
-    --font-size: 18px;
     --bg-color: #000028;
     --bg-image: url(../images/cover-image-dark.png);
   }

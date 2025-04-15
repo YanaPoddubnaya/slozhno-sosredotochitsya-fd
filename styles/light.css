@@ -16,8 +16,8 @@
   --color-band: #353430;
   --color-shadow: #FF8DCB;
   --bg-color: #fff1f7;
-  --font-size: 18px;
   --bg-image: url(../images/cover-image-light.png);
+  --font-size: 18px;
 }
 
 @media (prefers-color-scheme: light) {
@@ -29,8 +29,8 @@
     --color-band: #353430;
     --color-shadow: #FF8DCB;
     --bg-color: #fff1f7;
-    --font-size: 18px;
     --bg-image: url(../images/cover-image-light.png);
+    --font-size: 18px;
   }
 
   h3 {
@@ -84,13 +84,17 @@
 }
 @media (width>=1024px) {
 
+.theme-light .header__theme-menu-item {
+  margin-bottom: 8px;
+}
+
 .theme-light .title-text {
     margin-top: 112px;
     margin-left: 10px;
   }
 
 .theme-light .box {
-    margin-top: 80px;
+    margin-top: 88px;
   }
 
 .theme-light .footer__title {

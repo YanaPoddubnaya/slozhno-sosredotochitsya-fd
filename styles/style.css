@@ -2,7 +2,6 @@
 
 .page {
   width: 375px;
-  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -12,20 +11,13 @@
   background-image: var(--bg-image);
 }
 
-header {
-  height: 100vh;
-}
-
-.header .decorated-zone {
-  position: absolute;
-}
 
 .decorated-zone {
   display: flex;
   align-items: end;
   flex-direction: column;
   justify-content: space-between;
-  height: 180px;
+  min-height: 180px;
 }
 
 .header__theme-menu {
@@ -181,7 +173,7 @@ h2 {
 }
 
 .section__text-one {
-  margin-top: 30px;
+  margin-top: 99px;
 }
 
 .section__text-two {
@@ -196,7 +188,7 @@ h2 {
   margin-top: 50px;
 }
 
-article {
+p {
   font-family: 'IBM Plex Mono', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -209,6 +201,7 @@ article {
 }
 
 h3 {
+  width: 356px;
   padding-left: 10px;
   font-family: 'IBM Plex Mono', sans-serif;
   font-weight: 700;
@@ -397,7 +390,7 @@ h2 {
   margin-right: 10px;
   }
 
-article {
+p {
   padding-left: 0;
 }
 
@@ -515,7 +508,7 @@ article {
 }
 
 .header__theme-menu-item {
-  padding: 0px 6px;
+  padding: 4px 6px;
 }
 
 .header__theme-menu-list {
@@ -523,7 +516,7 @@ article {
   align-items: baseline;
   text-align: center;
   height: 26px;
-  margin-top: 20px;
+  margin-top: 16px;
   }
 
   .header__theme-menu-button {
