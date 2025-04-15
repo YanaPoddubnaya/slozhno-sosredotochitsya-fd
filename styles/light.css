@@ -72,7 +72,8 @@
 }
 
 @media (width>=768px) {
-  .theme-light .title-text {
+
+.theme-light .title-text {
     margin-top: 143px;
     margin-right: 10px;
     margin-left: 5px;
@@ -94,8 +95,8 @@
   }
 
 .theme-light .box {
-    margin-top: 88px;
-  }
+    margin-top: 80px;
+  } 
 
 .theme-light .footer__title {
   margin-bottom: 0;
