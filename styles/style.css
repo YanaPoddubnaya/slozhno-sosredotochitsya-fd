@@ -1,5 +1,3 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   min-width: 375px;
   background-attachment: fixed;
@@ -32,7 +30,7 @@
 }
 
 .header__theme-menu {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: var(--font-size);
@@ -62,6 +60,7 @@
   background-color: transparent;
   border: none;
   color: var(--color-band);
+  outline: 1px solid var(--color-band);
 }
 
 .header__title {
@@ -77,7 +76,7 @@
   justify-content: end;
   padding-right: 19px;
   color: var(--color-band);
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: var(--font-size);
@@ -115,10 +114,6 @@
   outline: none;
 }
 
-.header__theme-menu-button {
-  outline: 1px solid var(--color-band);
-}
-
 .header__theme-menu-button:hover {
   outline: 1px solid var(--color-outline);
   padding: 0 12px 5px;
@@ -129,7 +124,7 @@
 }
 
 h1 {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -151,7 +146,7 @@ h2 {
   display: grid;
   align-items: center;
   margin-left: 10px;
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: 700;
   margin-right: 10px;
@@ -198,7 +193,7 @@ h2 {
 }
 
 .content-text {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: var(--font-size);
@@ -211,14 +206,14 @@ h2 {
 
 h3 {
   width: 356px;
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 700;
   font-size: var(--font-size);
   line-height: 23.4px;
 }
 
 h4 {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: var(--font-size);
@@ -267,7 +262,7 @@ img {
 }
 
 .footer__title {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -342,7 +337,7 @@ img {
   }
 
   .page__section-text-two {
-    margin-left: 8px;
+      margin-left: 8px;
   }
 
   .box__text-one .title-decor {
@@ -454,9 +449,9 @@ img {
       grid-column: span 2;
   }
 
-.footer .decor__corner-right {
+  .footer .decor__corner-right {
       margin-top: 30px;
-}
+  }
 
   .footer__title {
       justify-content: center;
@@ -466,8 +461,8 @@ img {
   }
 
   .footer .decor__corner-left {
-    margin-bottom: 10px;
-    margin-top: 0px;
+      margin-bottom: 10px;
+      margin-top: 0px;
   }
 }
 
@@ -477,9 +472,9 @@ img {
   }
 
   .decorated-zone {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: baseline;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: baseline;
   }
 
   .rec__container {
@@ -507,12 +502,12 @@ img {
   }
 
   .header__theme-menu-list {
-    display: flex;
-    align-items: baseline;
-    text-align: center;
-    margin-top: 16px;
-    margin-left: 90px;
-    justify-content: center;
+      display: flex;
+      align-items: baseline;
+      text-align: center;
+      margin-top: 16px;
+      margin-left: 90px;
+      justify-content: center;
   }
 
   .header__theme-menu-button {
@@ -533,21 +528,20 @@ img {
       margin-top: 89px;
   }
 
-.title-text {
-    margin-top: 132px;
-    margin-left: 6px;
+  .title-text {
+      margin-top: 132px;
+      margin-left: 6px;
   }
 
-.title-decor {
-  margin: 20px 10px 10px 11px;
-}
+  .title-decor {
+      margin: 20px 10px 10px 11px;
+  }
 
-.title-text .title-decor {
-    margin: 0;
-    margin-left: 3px;
-    margin-right: 10px;
-
-}
+  .title-text .title-decor {
+      margin: 0;
+      margin-left: 3px;
+      margin-right: 10px;
+  }
 
   .focus-reason {
       grid-template-columns: 300px 1fr;
@@ -555,7 +549,7 @@ img {
   }
 
   .box__text-one {
-    margin: 0px 0 10px 29px;
+      margin: 0px 0 10px 29px;
   }
 
   .focus-reason h3 {
@@ -577,7 +571,7 @@ img {
   }
 
   .focus-tips {
-      margin-top: 37px;
+      margin-top: 57px;
   }
 
   .text__consentarion {
@@ -586,6 +580,10 @@ img {
 
   .title__consentarion {
       width: 315px;
+  }
+
+  .block__image {
+      margin-top: 81px;
   }
 
   .footer {
