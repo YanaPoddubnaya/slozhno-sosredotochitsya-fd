@@ -19,6 +19,7 @@
   --bg-image: url(../images/cover-image-light.png);
   --color-outline: rgba(50, 49, 45, 0.4);
   --color-title: #353430;
+  --record-visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -33,9 +34,6 @@
     --bg-image: url(../images/cover-image-light.png);
     --color-outline: rgba(50, 49, 45, 0.4);
     --color-title: #353430;
+    --record-visibility: hidden;
   }
-}
-
-.theme-light .record {
-  visibility: hidden;
 }

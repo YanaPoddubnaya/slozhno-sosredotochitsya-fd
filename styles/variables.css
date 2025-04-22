@@ -15,6 +15,7 @@
   --color-outline: rgba(255, 0, 112, 0.4);
   --color-title: #FF0070;
   --bg-image: url(../images/cover-image-dark.png);
+  --record-visibility: visible;
 }
 
 
