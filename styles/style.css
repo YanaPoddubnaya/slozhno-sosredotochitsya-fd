@@ -4,6 +4,7 @@
   background-position: center;
   background-size: cover;
   margin: 0;
+  margin-left: 1px;
   padding: 0;
   background-color: var(--bg-color);
   background-image: var(--bg-image);
@@ -11,7 +12,8 @@
 
 .header {
   min-height: 668px;
-  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
 }
 
 .decorated-zone {
@@ -19,14 +21,12 @@
   align-items: end;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 180px;
 }
 
 .rec__container {
   margin-top: 10px;
   display: flex;
   align-items: center;
-  height: 25px;
 }
 
 .header__theme-menu {
@@ -39,8 +39,8 @@
 .header__theme-menu-list {
   display: grid;
   gap: 5px;
-  margin-bottom: 4px;
   margin-right: 4px;
+  margin-bottom: 8px;
 }
 
 .header__theme-menu-item {
@@ -61,10 +61,11 @@
   border: none;
   color: var(--color-band);
   outline: 1px solid var(--color-band);
+  outline: none;
 }
 
 .header__title {
-  margin: 59px 0 54px 11px;
+  margin: 56px 0 54px 10px;
 }
 
 .header__theme-menu-button_active {
@@ -110,10 +111,6 @@
   margin-left: auto;
 }
 
-.header__theme-menu-button_type_light {
-  outline: none;
-}
-
 .header__theme-menu-button:hover {
   outline: 1px solid var(--color-outline);
   padding: 0 12px 5px;
@@ -134,10 +131,6 @@ h1 {
   margin: 0;
 }
 
-.title-text {
-  margin-block-end: 30px;
-}
-
 h2 {
   margin: 0;
   margin-bottom: 12px;
@@ -154,14 +147,14 @@ h2 {
 }
 
 .title-decor {
-  color: var(--color-second);
+  color: var(--color-secondary);
   background: var(--color-surface);
-  margin: 20px 10px 10px 10px;
+  margin: 0px 10px 10px 10px;
 }
 
 .decor__corner-left {
-  margin-left: 11px;
-  margin-bottom: 21px;
+  margin-left: 10px;
+  margin-top: -35px;
   box-sizing: border-box;
   width: 25.04px;
   height: 25px;
@@ -174,8 +167,16 @@ h2 {
   margin-top: 40px;
 }
 
+.box__text {
+  margin-top: 20px;
+}
+
 .focus-factors {
   margin-top: 50px;
+}
+
+.page__section-text {
+  margin-top: 20px;
 }
 
 .title__consentarion {
@@ -184,12 +185,20 @@ h2 {
   margin-right: 10px;
 }
 
+.focus-tips .title-decor {
+  margin-top: 20px;
+}
+
+.text__consentarion {
+  margin-top: 20p;
+}
+
 .focus-tips {
-  margin-top: 48px;
+  margin-top: 50px;
 }
 
 .block__image {
-  margin-top: 51px;
+  margin-top: 50px;
 }
 
 .content-text {
@@ -205,7 +214,6 @@ h2 {
 }
 
 h3 {
-  width: 356px;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 700;
   font-size: var(--font-size);
@@ -253,7 +261,6 @@ img {
 
 .footer {
   min-height: 668px;
-  height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -271,7 +278,12 @@ img {
   background: none;
   text-align: center;
   margin-left: 4px;
-  margin-top: 1px;
+  padding-bottom: 31px;
+  margin-right: 3px;
+}
+
+.footer .decor__corner-left {
+  margin-bottom: 20px;
 }
 
 @media (width>=768px) {
@@ -280,7 +292,7 @@ img {
   }
 
   .rec__container {
-      margin-top: 0px;
+      margin-top: -20px;
   }
   .record {
       padding-right: 20px;
@@ -298,7 +310,7 @@ img {
 
   .header__title {
       margin: 0;
-      margin-top: 170px;
+      margin-top: 175px;
   }
 
   .header__theme-menu-list {
@@ -309,10 +321,6 @@ img {
   h1 {
       font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
       margin: 0;
-  }
-
-  .decorated-zone {
-      height: 295px;
   }
 
   .title-text {
@@ -336,16 +344,20 @@ img {
       align-items: flex-start;
   }
 
-  .page__section-text-two {
+  .page__section-text {
       margin-left: 8px;
   }
 
-  .box__text-one .title-decor {
+  .box__text .title-decor {
       margin: 20px 20px 10px 10px;
   }
 
   .title-decor {
       margin: 19px 10px 10px 11px;
+  }
+
+  .content-text {
+    padding-right: 20px;
   }
 
   .text__box {
@@ -365,25 +377,24 @@ img {
       display: grid;
       grid-template-columns: 240px 1fr;
       grid-column-gap: 16px;
-      margin-top: 40px;
+      margin-top: 60px;
   }
 
   .focus-reason h3 {
       margin-left: 10px;
       margin-top: 10px;
-      width: 220px;
   }
 
-  .box__text-one {
+  .box__text {
       grid-column-start: 2;
       grid-column-end: 4;
-      margin: 0 0 10px 10px;
+      margin: 0 0 0 10px;
   }
 
   .focus-factors {
       grid-column-start: 1;
       grid-column-end: 4;
-      margin-top: 70px;
+      margin-top: 80px;
       margin-left: 1px;
       margin-right: 10px;
   }
@@ -548,7 +559,7 @@ img {
       gap: 17px;
   }
 
-  .box__text-one {
+  .box__text {
       margin: 0px 0 10px 29px;
   }
 
@@ -565,7 +576,7 @@ img {
       margin-bottom: 0;
   }
 
-  .page__section-text-two {
+  .page__section-text {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
   }
