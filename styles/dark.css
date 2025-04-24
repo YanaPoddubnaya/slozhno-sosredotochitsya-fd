@@ -8,7 +8,7 @@
   :root {
     --color-primary: #DB00FF;
     --color-surface: #FF0070;
-    --color-second: #000028;
+    --color-secondary: #000028;
     --color-accent: #F1B2CE;
     --color-band: #FF0070;
     --color-shadow: #FF0070;
@@ -31,11 +31,13 @@
   */
   --color-primary: #DB00FF;
   --color-surface: #FF0070;
-  --color-second: #000028;
+  --color-secondary: #000028;
   --color-accent: #F1B2CE;
   --color-band: #FF0070;
   --color-shadow: #FF0070;
   --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
   --record-visibility: visible;
+  --color-outline: rgba(255, 0, 112, 0.4);
+  --color-title: #FF0070;
 }
